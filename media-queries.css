@@ -1,0 +1,109 @@
+
+@media (max-width: 1125px){
+
+    /* .Nav-Container {
+    
+        position: fixed;
+
+    } */
+
+
+    h1 {
+        margin: 0 10px;
+    }
+
+    .Box-Container {
+        margin: 60px 30px 30px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .Box {
+        height: 175px;
+        width: 400px;
+        text-align: center;
+        font-size: 2em;
+        margin: 10px 10px;
+    }
+
+    .qoute {
+        font-size: 2.5em;
+        margin: 10px 30px;
+    }}
+
+@media (max-width: 967px){
+    .faq-box {
+        margin: 0 10px;
+    }}
+
+@media (max-width: 800px){
+        
+        .Text-Section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+    
+        .Text-Box-1 {
+            font-size: 2em;
+            margin: 20px 10%;
+        }
+    
+        .Text-Section-Subtitle {
+            text-align: center;
+        }}
+
+@media (max-width: 700px){
+
+    .Text-Section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .Text-Box-1 {
+        font-size: 2em;
+        margin: 20px 10%;
+    }
+
+    .Text-Section-Subtitle {
+        text-align: center;
+    }}
+
+@media (max-width: 500px){
+
+
+    .Why-Us-Subtitle {
+        font-size: 3em;
+        margin: 0 10px;
+    }
+
+    .Why-Us {
+        padding: 40px 0;
+
+    }
+
+    .qoute {
+        margin-bottom: 20px;
+        font-size: 2em;
+        text-align: center;
+        color: red;
+        font-weight: 300;
+    }}
+
+@media (max-width: 375px){
+
+    .hero-box {
+        text-align: center;
+        color: #fff;
+        font-size: 3em;
+        font-weight: 300;
+    }
+
+}
+    

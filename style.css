@@ -1,0 +1,339 @@
+
+/* General Styles */
+
+/* Jade Green: #00A86B; */
+/* Purple: #A80073; */
+/* Background Grey: #b3b3b3; */
+/* Icons: https://iconscout.com/unicons */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #585858;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navigation Styles */
+
+
+
+nav {
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+li {
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+    /* margin-right: 3%; */
+    font-size: 1.25em;
+}
+
+li a {
+    text-decoration: none;
+    color: #585858;
+    opacity: 0.7;
+}
+
+li a:hover {
+    color: #000;
+    cursor: pointer;
+    transition: all .4s ease;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+/* Header Styles */
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0,168,107, 0.7), rgba(0,168,107, 0.7)), url(numbers.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.hero-box h1 {
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.Contact-btn {
+    background-color: #fff;
+    color: #00A86B;
+    font-size: 0.75em;
+    padding: 7px 10px;
+    border: none;
+    border: 2px solid #fff;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.Contact-btn:hover {
+    transform: translateY(-10%);
+    background-color: #fff;
+    color: #00A86B;
+    font-size: 0.75em;
+    padding: 7px 10px;
+    border: 2px solid #fff;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 300;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+/* Services Styles */
+
+.Services {
+    padding: 40px 0;
+    color: #00A86B;
+}
+
+.Service-Subtitle {
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.Service-Subtitle-2 {
+    text-align: center;
+    font-size: 4em;
+    margin: 30px 0;
+    font-weight: 300; 
+}
+
+.Box-Container {
+    margin: 60px 30px 30px 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Box {
+    height: 175px;
+    width: 400px;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 10px;
+    /* background-color: yellow; */
+}
+
+.Box h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.Box i {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+/* Why Us? Styles */
+
+.Why-Us {
+    padding: 80px 0;
+    color: #A80073;
+    background-color: #cccccc;
+}
+
+.Why-Us-Subtitle {
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+/* Text Section */
+
+.Text-Section {
+    padding: 80px 0;
+    /* background-color: red; */
+    color: #585858;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.Text-Section-Subtitle {
+    color: #00A86B;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.Text-Box-1, .Text-Box-2 {
+    margin-left: 60px;
+}
+
+.Text-Box-1 {
+    font-size: 2em;
+    margin-left: 60px;
+}
+
+.Text-Box-2 {
+    font-size: 2em;
+    margin-right: 60px;
+}
+
+/* Pounds */
+
+.Pounds {
+    height: 80vh;
+    background: linear-gradient(rgba(168, 0, 115, 0.7), rgba(168, 0, 115, 0.7)), url(pounds.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.qoute {
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+.client-name {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.qoute span {
+    font-size: 1.75em;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+/* FAQ Styles */
+
+.FAQ {
+    padding: 80px 0;
+    color: #00A86B;
+    background-color: #fff;
+}
+
+.faq-Subtitle {
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faq-box {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.question {
+    text-transform: bold;
+    font-size: 3em;
+    color: #00A86B;
+    margin-bottom: 10px;
+}
+
+.answer {
+    font-size: 3em;
+    color: #585858;
+}
+
+/* Footer Styles */
+
+footer {
+    padding: 30px 0;
+    background-color: #5e5e5e;
+}
+
+.footer-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer-nav-item {
+
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+
+}
+
+.copyright {
+    color: #fff;
+    font-size: 1.25em;
+    text-align: center;
+    margin-top: 7%;
+}
+
+
